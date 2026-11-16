@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniel Radcliffe Concepts - 02</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header"><div class="brand">DR Concepts</div>
+  <nav class="nav"><a href="#work">Work</a><a href="#about">About</a><button id="themeBtn" class="btn ghost">Theme</button></nav></header>
+  <main class="content" id="work">
+    <h1>Concept Playground</h1>
+    <p class="muted">A compact playground of reusable blocks and micro-interactions.</p>
+    <section class="grid" aria-label="Projects">
+      <article class="card" tabindex="0"><h3>Media Card</h3><p>Interactive preview</p></article>
+      <article class="card" tabindex="0"><h3>Carousel</h3><p>Swipe-friendly</p></article>
+      <article class="card" tabindex="0"><h3>Modal Demo</h3><p>Accessible modal</p></article>
+    </section>
+    <button class="btn" data-action="openModal">Learn More</button>
+  </main>
+  <div id="modal" class="modal" aria-hidden="true"><div class="modal-card"><p>Modal content for a compact demo site.</p><button class="btn" id="closeModal">Close</button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
